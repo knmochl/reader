@@ -54,7 +54,7 @@ class URLFetcherSpec extends FlatSpec with ShouldMatchers with BeforeAndAfterAll
     // the httpServer only has a fixed number of threads so if you make latency
     // or number of requests too high, the futures will start to time out
     httpServer.withRandomLatency(300) {
-      val fetcher = actorOf(new URLFetcher.start
+      val fetcher = actorOf(new URLFetcher).start
       val numToFetch = 500
       val responses = for (i <- 1 to numToFetch)
         yield (fetcher ? FetchURL(httpServer.resolve("/echo", "what", i.toString)), i)

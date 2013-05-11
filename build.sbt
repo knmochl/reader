@@ -11,3 +11,9 @@ libraryDependencies += "com.typesafe.akka" % "akka-actor_2.10" % "2.1.2"
 libraryDependencies += "com.ning" % "async-http-client" % "1.6.5"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1" % "test"
+
+libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "9.0.3.v20130506"
+
+libraryDependencies += "org.eclipse.jetty" % "jetty-servlet" % "9.0.3.v20130506"
+
+libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "9.0.3.v20130506" % "test"
