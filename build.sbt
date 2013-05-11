@@ -9,3 +9,5 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 libraryDependencies += "com.typesafe.akka" % "akka-actor_2.10" % "2.1.2"
 
 libraryDependencies += "com.ning" % "async-http-client" % "1.6.5"
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1" % "test"
