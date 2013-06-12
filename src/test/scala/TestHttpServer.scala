@@ -1,4 +1,4 @@
-package com.allandira.knmochl.reader
+package com.allandria.knmochl.reader
 
 import java.net.URL
 import org.eclipse.jetty.server.handler.AbstractHandler
