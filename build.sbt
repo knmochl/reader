@@ -12,8 +12,8 @@ libraryDependencies += "com.ning" % "async-http-client" % "1.6.5"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1" % "test"
 
-libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "9.0.3.v20130506"
+libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "8.1.11.v20130520"
 
-libraryDependencies += "org.eclipse.jetty" % "jetty-servlet" % "9.0.3.v20130506"
+libraryDependencies += "org.eclipse.jetty" % "jetty-servlet" % "8.1.11.v20130520"
 
-libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "9.0.3.v20130506" % "test"
+libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "8.1.11.v20130520" % "test"
