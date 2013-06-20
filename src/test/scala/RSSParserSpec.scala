@@ -30,4 +30,8 @@ class RSSParserSpec extendsFlatSpec with ShouldMatchers {
     system.stop(parser)
   }
 
+  it should "parse an Atom feed" (pending)
+
+  it should "receive an exception for a bad format" (pending)
+
 }
