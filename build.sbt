@@ -17,3 +17,5 @@ libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "8.1.11.v20130520"
 libraryDependencies += "org.eclipse.jetty" % "jetty-servlet" % "8.1.11.v20130520"
 
 libraryDependencies += "org.eclipse.jetty" % "jetty-server" % "8.1.11.v20130520" % "test"
+
+libraryDependencies += "rome" % "rome" % "1.0"
