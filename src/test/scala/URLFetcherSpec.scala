@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse
 class URLFetcherSpec extends FlatSpec with ShouldMatchers with BeforeAndAfterAll {
   behavior of "URLFetcher"
 
-  implicit val timeout = Timeout(5 seconds)
+  implicit val timeout = Timeout(5.seconds)
   implicit val ec = ExecutionContext.global
   var httpServer: TestHttpServer = null
   val system = ActorSystem("TestReader")
@@ -91,7 +91,7 @@ class URLFetcherSpec extends FlatSpec with ShouldMatchers with BeforeAndAfterAll
       responses foreach { tuple =>
         val f = tuple._1
         val expected = tuple._2.toString
-        Await.result(f, 5 seconds) match {
+        Await.result(f, 5.seconds) match {
           case URLFetched(status, headers, body) =>
             status should be(HttpServletResponse.SC_OK)
             body should be(expected)

@@ -1,5 +1,6 @@
 package com.allandria.knmochl.reader
 
+import language.postfixOps
 import java.net.URL
 import org.eclipse.jetty.server.handler.AbstractHandler
 import org.eclipse.jetty.server.Request

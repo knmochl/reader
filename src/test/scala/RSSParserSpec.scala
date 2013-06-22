@@ -13,7 +13,7 @@ import akka.pattern.ask
 class RSSParserSpec extends FlatSpec with ShouldMatchers {
   behavior of "RSSParser"
 
-  implicit val timeout = Timeout(5 seconds)
+  implicit val timeout = Timeout(5.seconds)
   implicit val ec = ExecutionContext.global
   val system = ActorSystem("TestReader")
 
