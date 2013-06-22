@@ -10,7 +10,7 @@ import akka.actor._
 import akka.util.Timeout
 import akka.pattern.ask
 
-class RSSParserSpec extendsFlatSpec with ShouldMatchers {
+class RSSParserSpec extends FlatSpec with ShouldMatchers {
   behavior of "RSSParser"
 
   implicit val timeout = Timeout(5 seconds)
