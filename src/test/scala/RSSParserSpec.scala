@@ -83,6 +83,6 @@ class RSSParserSpec extends FlatSpec with ShouldMatchers {
     system.stop(parser)
   }
 
-  it should "receive an exception for a bad format" (pending)
+  it should "receive an exception for a bad format" is (pending)
 
 }
